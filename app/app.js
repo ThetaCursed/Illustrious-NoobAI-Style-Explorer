@@ -258,7 +258,7 @@
                 }
             } else {
                 // Стандартное поведение: копирование имени и сброс выделения
-                navigator.clipboard.writeText('@' + item.artist).then(() => {
+                navigator.clipboard.writeText(item.artist).then(() => {
                     showToast('Artist name copied to clipboard!');
                 });
                 // Сбрасываем выделение, если кликнули без Ctrl
