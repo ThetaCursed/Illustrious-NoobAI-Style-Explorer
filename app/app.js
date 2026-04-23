@@ -74,7 +74,7 @@
     // Проверяем, запущено ли приложение с веб-сервера (http/https) или локально (file:)
     const isOnline = window.location.protocol.startsWith('http');
     const imageBasePath = isOnline 
-        ? 'https://cdn.statically.io/gh/ThetaCursed/Illustrious-NoobAI-Style-Explorer/main/' 
+        ? 'https://cdn.jsdelivr.net/gh/ThetaCursed/Illustrious-NoobAI-Style-Explorer@main/'  
         : '';
 
 
