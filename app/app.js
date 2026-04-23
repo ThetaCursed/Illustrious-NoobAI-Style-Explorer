@@ -907,7 +907,7 @@
 
         const exportData = {
             metadata: {
-                appName: "Illustrious NoobAI Style Explorer Style Explorer",
+                appName: "Illustrious NoobAI Style Explorer",
                 exportDate: new Date().toISOString(),
                 favoritesCount: favoritesToSave.length
             },
