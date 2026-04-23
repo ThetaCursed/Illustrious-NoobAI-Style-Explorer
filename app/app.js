@@ -84,7 +84,7 @@
 
     // --- IndexedDB ---
     let db;
-    const DB_NAME = 'StyleGalleryDB';
+    const DB_NAME = 'SDXLStyleGalleryDB';
     const STORE_NAME = 'favorites';
 
     function initDB() {
@@ -907,7 +907,7 @@
 
         const exportData = {
             metadata: {
-                appName: "Anima Style Explorer",
+                appName: "Illustrious NoobAI Style Explorer Style Explorer",
                 exportDate: new Date().toISOString(),
                 favoritesCount: favoritesToSave.length
             },
@@ -938,7 +938,7 @@
         const a = document.createElement('a');
         a.href = url;
         const date = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-        a.download = `anima-style-favorites-${date}.json`;
+        a.download = `style-explorer-favorites-${date}.json`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -988,7 +988,7 @@
         const a = document.createElement('a');
         a.href = url;
         const date = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-        a.download = `anima-favorites-${folderName}-${date}.txt`;
+        a.download = `style-explorer-favorites-${folderName}-${date}.txt`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
