@@ -14,13 +14,13 @@
 
 The **Illustrious XL & NoobAI-XL Style Explorer** is a high-performance interactive visual library created specifically for AI artists and prompt engineers working with **Illustrious XL** (by OnomaAI Research) and **NoobAI-XL** (by Laxhar Lab).
 
-It gives you instant visual previews of over **5,000+ Danbooru artist tags**, dataset strength indicators, and one-click optimized artist tags that work **perfectly in both models**. No more guessing — see exactly how each artist style renders before you generate.
+It gives you instant visual previews of over **16,000+ Danbooru artist tags**, dataset strength indicators, and one-click optimized artist tags that work **perfectly in both models**. No more guessing — see exactly how each artist style renders before you generate.
 
 Every style in this explorer is 100% compatible between Illustrious XL and NoobAI-XL, giving you maximum flexibility whether you prefer the community-favorite base model or the advanced V-Prediction fine-tune.
 
 ## 🛠️ Key Features
 *   **Visual Search & Filtering:**  
-    Instantly search 5,000+ artist styles by name. Jump to artists by dataset size (`Works`) or **Uniqueness Rank**.
+    Instantly search 16,000+ artist styles by name. Jump to artists by dataset size (`Works`) or **Uniqueness Rank**.
 
 *   **Advanced Sorting:**  
     Sort alphabetically, by number of training images, by stylistic uniqueness, or randomize to discover hidden gems.
@@ -41,7 +41,7 @@ Every style in this explorer is 100% compatible between Illustrious XL and NoobA
     Distraction-free full-screen browsing. Automatically skips already-favorited artists. Hotkeys: `←` `→` (navigate), `C` (copy), `↓` (favorite), `Esc` (close). Start from any card with middle-click.
 
 *   **High Performance & Fully Offline:**  
-    Lightweight Vanilla JS + optimized WebP images. The entire ~280 MB app runs completely offline after download.
+    Lightweight Vanilla JS + optimized WebP images. The entire ~900 MB app runs completely offline after download.
 
 ## 💾 Offline Usage
 Run the explorer locally on any computer — no internet required.
